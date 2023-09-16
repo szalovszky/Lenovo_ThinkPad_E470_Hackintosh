@@ -15,15 +15,15 @@ EFI for Lenovo ThinkPad E470 with OpenCore bootloader
 | Lan              | Realtek 8111/8168/8411                                    |
 | Audio            | Conexant CX20753                                          |
 | Ram              | Samsung 8 GB DDR4 2133 Mhz + Kingston 16 GB DDR4 2133 Mhz |
-| Wifi + Bluetooth | QCA9377 (not work)                                        |
+| Wifi + Bluetooth | Intel Dual Band AC 8265 (HeliPort, Bluetooth doesn't work)|
 | SSD SATA         | Samsung SSD 860 EVO 1TB                                   |
 | SmBios           | MacBookPro 14,2                                           |
 | BootLoader       | OpenCore 0.9.2                                            |
-| macOS            | Monterey 12.6.3(work well)/Ventura 13(maybe,untested)     |
+| macOS            | Monterey 12 (works well) / Ventura 13 (works well)        |
 
 ![infomac](./Screenshot/infomac.png)
 
-### What works and What doesn't or WIP:
+### What works:
 
 -   [x] Intel HD 620 iGPU HDMI Output
 -   [x] Intel HD 620 iGPU - H264 & HEVC
@@ -41,10 +41,10 @@ EFI for Lenovo ThinkPad E470 with OpenCore bootloader
 -   [x] F1 & F2 & F3 Sound Key
 -   [x] Lan Realtek 8168
 -   [x] Sata Slot AHCI
--   [x] SD Cardreader(untested)
 -   [x] WebCam (USB-Internal)
 -   [x] ACPI Battery
 -   [x] Recovery (macOS) boot from OpenCore
+-   [x] WiFi using HeliPort (you still need ethernet during install)
 
 ## Screenshot
 
